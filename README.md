@@ -30,7 +30,3 @@ The system aims to automate order management using several Object-Oriented Progr
 3. **Adapter**:
    - Bridges different payment interfaces (e.g., integrating cash, bank transfer, and crypto payments seamlessly).
 
-## Installation
-1. Clone the repository:  
-   ```bash
-   git clone https://github.com/Kuurianse/NomNomCo-OrderManagementSystem.git
