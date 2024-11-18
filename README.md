@@ -1,32 +1,33 @@
-# NomNomCo-OrderManagementSystem
+# NomNom Co. Order Management System: Implementing OOP Design Patterns for Production Automation
 
-## Project Description
-This project was developed for NomNom Co., a confectionery store experiencing a sudden surge in orders due to its newfound popularity.  
-The system aims to automate order management using several Object-Oriented Programming (OOP) design patterns:
+## Project Description  
+This project was developed for **NomNom Co.**, a confectionary store experiencing a surge in orders due to sudden popularity. The system aims to automate the order management process by implementing several Object-Oriented Programming (OOP) design patterns, namely:  
 
-1. **Factory Method**: Simplifies the creation of different types of confectionery (e.g., "Cupcake" or "Tart").
-2. **Singleton**: Ensures only one database instance is active to maintain centralized, consistent data.
-3. **Adapter**: Bridges different interfaces to ensure compatibility across program modules.
+1. **Factory Method**  
+   - Implements an interface or abstract class to create various types of confectionaries (e.g., "Cupcake" or "Tart"). Subclasses are responsible for deciding which object type to create.
 
-## Key Features
-- **Interactive Menu**:
-  - Users can create new confectionery items, view order lists, or exit the program.
+2. **Singleton**  
+   - Restricts the instantiation of the database to only one instance throughout the program runtime, ensuring centralized and consistent order data.
 
-- **Confectionery Creation**:
-  - Validates input for type, name, texture, toppings, price, and payment method.
-  - Converts prices based on payment method (Cash, Transfer, or Crypto).
-  - Successfully created items are added to the database.
+3. **Adapter**  
+   - Bridges different interfaces so various program components can work together without conflict.
 
-- **Order Display**:
-  - Lists all orders with detailed information, including toppings (if any) and payment details (random account number for Transfer or Crypto address).
+## Key Features  
+- **Interactive Menu:**  
+  Users can choose to create a new confectionary, view the list of orders, or exit the program.  
 
-## Design Patterns Used
-1. **Factory Method**:
-   - Modularized the creation of various confectionery types, allowing flexibility in extending the menu.
-   
-2. **Singleton**:
-   - Ensures a single instance of the database to avoid data duplication or inconsistency.
-   
-3. **Adapter**:
-   - Bridges different payment interfaces (e.g., integrating cash, bank transfer, and crypto payments seamlessly).
+- **Confectionary Creation:**  
+  - Input validation for type, name, softness level, toppings, price, and payment method.  
+  - Price conversion based on the payment method (Cash, Transfer, or Crypto).  
+  - Successfully created confectionaries are added to the database.  
 
+- **Order Viewing:**  
+  - Displays all orders from the database with detailed information, including toppings (if any) and payment details (randomized account number for Transfer or a random Crypto address).  
+
+- **Optimized Design Patterns:**  
+  - **Factory Method** for modularity of confectionary types.  
+  - **Singleton** to ensure a single database instance.  
+  - **Adapter** for payment interface compatibility.  
+
+## Advantages  
+This system integrates OOP design patterns to ensure efficient data management, strict input validation, and an intuitive user experience. It demonstrates proficiency in problem analysis, software architecture design, and implementation of industry-standard coding practices.
