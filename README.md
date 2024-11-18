@@ -33,4 +33,4 @@ The system aims to automate order management using several Object-Oriented Progr
 ## Installation
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/your-username/nomnom-order-management.git
+   git clone https://github.com/Kuurianse/NomNomCo-OrderManagementSystem.git
